@@ -1,0 +1,30 @@
+.button {
+  align-items: center;
+  background-color: #24527a;
+  border-radius: 8px;
+  color: #a7bcb9;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 6px 8px;
+  width: fit-content;
+}
+
+.button:hover {
+  background-color: #00204a;
+}
+
+.button:valid {
+  background-color: #00bbf0;
+}
+
+.delete {
+  background-color: #f70776;
+  font-size: 12px;
+  padding: 4px 6px;
+}
+
+.delete:hover {
+  background-color: #680747;
+}
